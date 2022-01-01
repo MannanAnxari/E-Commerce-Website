@@ -1,0 +1,36 @@
+#services{
+    flex-direction: column;
+}
+.items{
+    flex-wrap: wrap;
+}
+#navbar{
+    flex-direction: column;
+}
+#home{
+    height: 305px;
+    padding: 0px 0px;
+}
+#home::before{
+    height: 390px;
+}
+#home p{
+    font-size: 12px;
+}
+#home h1{
+    font-size: 20px;
+}
+.h-primary{
+    font-size: 2rem;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 0px;
+}
+#navbar::before{
+    height: 116%;
+}
+#contact-box form{
+    width: 80%;
+    font-family: 'Bree Serif', serif;
+}
